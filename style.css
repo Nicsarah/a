@@ -1,1 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+:root {
+    --cor-de-fundo: #283618;
+    --cor-titulo: #ffeeffaf;
+    --verde-um: #ABBE99;
+    --verde-dois: #688557;
+    --verde-tres: #71873F;
+    --verde-quatro: #283618;
+    --marrom-um: #BC6C25;
+    --marrom-dois: #A36627;
+    --marrom-tres: #783D19;
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'limelight', sans-serif;
+}
+
+.titulo-principal {
+    color: var(--cor-titulo);
+    text-align: center;
+    width: 100%;
+    font-size: 68px;
+}
